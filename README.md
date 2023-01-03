@@ -1,0 +1,2 @@
+# automatonQA
+test for automaton
