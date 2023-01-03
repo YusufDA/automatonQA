@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Create Read Update Delete web API with Auth</description>
-   <name>Restful-Booker</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>aa16c641-b1d3-4f2b-8398-b572c28222a5</testCaseGuid>
-</TestCaseEntity>
