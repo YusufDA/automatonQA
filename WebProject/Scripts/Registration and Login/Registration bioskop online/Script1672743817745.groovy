@@ -20,17 +20,21 @@ import com.github.javafaker.Faker as Faker
 
 WebUI.openBrowser('https://bioskoponline.com/')
 
-Faker faker = new Faker()
+Faker faker = new Faker(new Locale("in-ID"))
 
-String test = faker.funnyName()
+String name = faker.name().firstName()
+String lastName = faker.name().lastName()
+
+String phoneNumber = faker.phoneNumber().phoneNumber()
 
 WebUI.click(findTestObject('Page_Bioskop Online/button_Daftar'))
 
-WebUI.setText(findTestObject('Page_Bioskop Online/input__email'), 'testingemail@gmail.com')
+'untuk email bisa di enchance mengunakan name dari faker lalu mengunakan @\r\n dari dummy email yang bisa di akses supaya bisa mendapatkan OTP\r\nnamun untuk automate by Data saja untuk click register itu sudah masuk DB'
+WebUI.setText(findTestObject('Page_Bioskop Online/input__email'), name + lastName + '@gmail.com')
 
-WebUI.setText(findTestObject('Page_Bioskop Online/input__name'), 'testing')
+WebUI.setText(findTestObject('Page_Bioskop Online/input__name'), name)
 
-WebUI.setText(findTestObject('Page_Bioskop Online/input__phone'), '081245631579')
+WebUI.setText(findTestObject('Page_Bioskop Online/input__phone'), phoneNumber)
 
 WebUI.setText(findTestObject('Page_Bioskop Online/input__kata_sandi_encrypted'), 'Katasand1')
 
