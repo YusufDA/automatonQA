@@ -10,19 +10,21 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.ResponseObject as ResponseObject
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-//import com.github.javafaker.Faker as Faker
 
-WebUI.openBrowser('https://bioskoponline.com/')
+WS.sendRequestAndVerify(findTestObject('Auth - Create Token'))
 
-//Faker faker = new Faker()
-//
-//String test = 'test'
-//
-//println(test)
-//
+WS.sendRequest(findTestObject('Create Booking'))
+
+WS.sendRequestAndVerify(findTestObject('Get BookingIds'))
+
+WS.sendRequest(findTestObject('Delete Booking'))
+
+WS.sendRequest(findTestObject('Update Booking'))
+
