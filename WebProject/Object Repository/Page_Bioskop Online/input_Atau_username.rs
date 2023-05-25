@@ -6,6 +6,10 @@
    <elementGuidId>34e0fa97-3f39-4552-8767-bbefd681a4c5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'username' and @placeholder = 'Nomor Ponsel / Email']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>input[name=&quot;username&quot;]</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>//input[@name='username']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ca290473-0d78-41c1-bf48-9c33a28abffb</webElementGuid>
+      <webElementGuid>bf77f63a-a85b-4c06-938f-68bfe0f01767</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>20c09b09-4aff-402a-b564-becd2a7ca4d4</webElementGuid>
+      <webElementGuid>fbab587b-4554-4f85-912e-c14bf8d72507</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>maximum-scale</name>
       <type>Main</type>
       <value>1.6</value>
-      <webElementGuid>73497397-407b-4530-b218-30974a392278</webElementGuid>
+      <webElementGuid>04f500b5-3232-4f19-bd02-a03998998f3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>user-scalable</name>
       <type>Main</type>
       <value>yes</value>
-      <webElementGuid>8cc56812-a284-45a5-acb6-7dd9b8617eee</webElementGuid>
+      <webElementGuid>3fea50af-a702-443e-bb65-56d0c7de0d9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>name</name>
       <type>Main</type>
       <value>username</value>
-      <webElementGuid>a589e2fc-4337-48f1-b18c-a5f40831aac6</webElementGuid>
+      <webElementGuid>99fa3f54-713d-47e8-8f0b-e8be9e6552aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Nomor Ponsel / Email</value>
-      <webElementGuid>4d10d7e3-1043-4529-bd9d-11140301d1ac</webElementGuid>
+      <webElementGuid>7a06a3b7-3fac-4da0-b1da-b66fe65f7b65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>class</name>
       <type>Main</type>
       <value>input-custom w-11/12</value>
-      <webElementGuid>e8b77bcf-3fe4-4f9e-a6ba-94f52b6055c5</webElementGuid>
+      <webElementGuid>40151e42-9a0c-42eb-9339-b5e871affe93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__layout&quot;)/div[@class=&quot;bg-blue-1 flex flex-col min-h-screen text-white font-montserrat&quot;]/div[@class=&quot;vm--container&quot;]/div[@class=&quot;vm--modal modal-classes full-height mx-auto&quot;]/div[@class=&quot;text-white layout-login-wrapper overflow-auto&quot;]/form[@class=&quot;mb-6&quot;]/div[@class=&quot;border border-opacity-50 rounded-full px-7 py-3 mb-4&quot;]/div[@class=&quot;relative h-5 flex items-center&quot;]/input[@class=&quot;input-custom w-11/12&quot;]</value>
-      <webElementGuid>061d3da1-7f3e-44f5-95a3-22ee14a295a0</webElementGuid>
+      <webElementGuid>8e449827-444b-452b-b84d-5549d42f6fbf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='username']</value>
-      <webElementGuid>fbbc1879-d5c7-40b7-b471-23e4d64493b6</webElementGuid>
+      <webElementGuid>91bb6a8c-8db6-458b-8ba9-0150b2edc5c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__layout']/div/div[4]/div[2]/div/form/div/div/input</value>
-      <webElementGuid>ef3f2dae-6b1b-4e6c-b012-5542709e338e</webElementGuid>
+      <webElementGuid>2f211531-1235-4563-966e-c70037090f99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Atau'])[1]/following::input[1]</value>
-      <webElementGuid>a413cabf-bff9-4dbb-9409-63caca274232</webElementGuid>
+      <webElementGuid>b043cc60-c202-41e8-952e-1148feb5fd6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Facebook'])[1]/following::input[1]</value>
-      <webElementGuid>eaac6d14-bfad-4fc4-ad4e-7405a13ba6d0</webElementGuid>
+      <webElementGuid>d91bd5c4-a180-4b3a-935c-8ff21bd66dd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='✕'])[1]/preceding::input[1]</value>
-      <webElementGuid>a4cd1e27-a41e-49d8-9675-bc67e6fb866c</webElementGuid>
+      <webElementGuid>6fbb160d-d1b7-4a35-bc9b-d8336766950d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[2]/preceding::input[1]</value>
-      <webElementGuid>e10bf026-12ac-4d4c-8db8-86c2540d5728</webElementGuid>
+      <webElementGuid>3ed07ab6-1f65-4529-8095-9b3e11e7f161</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>6040f7f7-4078-4a5d-973d-763ab1e49d9a</webElementGuid>
+      <webElementGuid>8777edb8-9f17-4c99-a218-a37d4190330f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'username' and @placeholder = 'Nomor Ponsel / Email']</value>
-      <webElementGuid>b28326bf-a90d-4ab3-86c9-7ab78b2a25fd</webElementGuid>
+      <webElementGuid>1cc44870-2020-4ec7-8499-05b6bd803c45</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

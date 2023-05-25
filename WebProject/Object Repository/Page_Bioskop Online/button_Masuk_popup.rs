@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__layout']/div/div[4]/div[2]/div/form/button</value>
+         <value>//form/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>48830a4b-5910-41d2-8759-66bfc87cfcad</webElementGuid>
+      <webElementGuid>34cc8259-0e8d-4db0-afc6-fa62de0f98cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>disabled</name>
       <type>Main</type>
       <value>disabled</value>
-      <webElementGuid>e5562975-85e7-4e1e-a9a2-a635f4fbbc92</webElementGuid>
+      <webElementGuid>28cafd6b-cd63-405a-abda-7f349ef5ee1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-36 mobile:w-24 mobile:py-1 flex items-center justify-center desktop:py-3 py-1 w-full desktop:text-lg mobile:w-full bg-blue-4 text-blue-1 bg-opacity-20 cursor-not-allowed text-button bg-blue-4 p-3 rounded-full bg-opacity-20</value>
-      <webElementGuid>e377d028-72af-4dcf-9733-425814738d16</webElementGuid>
+      <webElementGuid>87d90ef7-c6ec-4bb0-849a-22dd734e22f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Masuk </value>
-      <webElementGuid>954af7e1-3598-4812-b1a2-5284c7e9f3b7</webElementGuid>
+      <webElementGuid>ec0bc436-a26f-4996-b410-5bc20c92901b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__layout&quot;)/div[@class=&quot;bg-blue-1 flex flex-col min-h-screen text-white font-montserrat&quot;]/div[@class=&quot;vm--container&quot;]/div[@class=&quot;vm--modal modal-classes full-height mx-auto&quot;]/div[@class=&quot;text-white layout-login-wrapper overflow-auto&quot;]/form[@class=&quot;mb-6&quot;]/button[@class=&quot;w-36 mobile:w-24 mobile:py-1 flex items-center justify-center desktop:py-3 py-1 w-full desktop:text-lg mobile:w-full bg-blue-4 text-blue-1 bg-opacity-20 cursor-not-allowed text-button bg-blue-4 p-3 rounded-full bg-opacity-20&quot;]</value>
-      <webElementGuid>63ef3c21-a7f0-42d5-9396-2cec30789234</webElementGuid>
+      <webElementGuid>3caaf98d-f6ea-4e48-a6f8-f2934734aeb7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__layout']/div/div[4]/div[2]/div/form/button</value>
-      <webElementGuid>13339741-8501-48a4-9eef-cc3d652e3764</webElementGuid>
+      <webElementGuid>eb132b3a-780c-4a5c-970b-326d95236995</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lupa Kata Sandi'])[1]/following::button[1]</value>
-      <webElementGuid>f2eca11c-8a4d-459d-aff8-5d827c800c9a</webElementGuid>
+      <webElementGuid>a9798f72-f6b4-403e-aa5a-ad7c07eec7bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='✕'])[1]/following::button[1]</value>
-      <webElementGuid>9fda2096-4748-4264-92c4-3f9cf7090651</webElementGuid>
+      <webElementGuid>341a0e1a-6df7-4a37-a198-9075da4b8aa6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/button</value>
-      <webElementGuid>a10ec308-9521-4aba-ab70-5d15a9396fba</webElementGuid>
+      <webElementGuid>23858e15-c45f-4cb4-a09a-ccf387fc484c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Masuk ' or . = ' Masuk ')]</value>
-      <webElementGuid>62fb2a83-2596-4443-836c-54dafac5f689</webElementGuid>
+      <webElementGuid>9be97511-7f82-4a75-a5eb-b761664ab425</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

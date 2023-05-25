@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__layout']/div/div[4]/div[2]/div/form/button</value>
+         <value>//button[(text() = ' Lanjutkan ' or . = ' Lanjutkan ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>90e31fab-6039-49f9-9405-f5839436b6a5</webElementGuid>
+      <webElementGuid>bb546b42-68d2-4e42-8d1f-6c5f9ee237b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>disabled</name>
       <type>Main</type>
       <value>disabled</value>
-      <webElementGuid>da3fdcaf-7a07-48be-bd82-bc99491cda87</webElementGuid>
+      <webElementGuid>35fa2387-2554-4514-a18d-9bf67de91797</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-36 mobile:w-24 mobile:py-1 flex items-center justify-center desktop:py-3 py-1 w-full mb-2 mt-11 mobile:w-full bg-blue-4 text-blue-1 bg-opacity-20 cursor-not-allowed text-button bg-blue-4 p-3 rounded-full bg-opacity-20</value>
-      <webElementGuid>15b59046-c23f-4ffc-b993-178ee492f658</webElementGuid>
+      <webElementGuid>9cd5aaeb-10d9-4037-b387-0be595e3cab1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Lanjutkan </value>
-      <webElementGuid>ce2e12b6-3f59-4e00-8ea7-97c6548741da</webElementGuid>
+      <webElementGuid>57014682-91c9-42b6-8fef-f3f312581ae8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__layout&quot;)/div[@class=&quot;bg-blue-1 flex flex-col min-h-screen text-white font-montserrat&quot;]/div[@class=&quot;vm--container&quot;]/div[@class=&quot;vm--modal modal-classes mx-auto&quot;]/div[@class=&quot;flex flex-col h-full overflow-auto rounded-2xl desktop:w-fit-content bg-blue-1 p-8 mobile:w-full&quot;]/form[1]/button[@class=&quot;w-36 mobile:w-24 mobile:py-1 flex items-center justify-center desktop:py-3 py-1 w-full mb-2 mt-11 mobile:w-full bg-blue-4 text-blue-1 bg-opacity-20 cursor-not-allowed text-button bg-blue-4 p-3 rounded-full bg-opacity-20&quot;]</value>
-      <webElementGuid>cc33ff54-1e1e-486e-83fa-9b9a2d97a86f</webElementGuid>
+      <webElementGuid>a3440abd-cf17-4833-b3d4-c850dac69e06</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__layout']/div/div[4]/div[2]/div/form/button</value>
-      <webElementGuid>69aa8886-1265-4459-a330-bda1d41a47b3</webElementGuid>
+      <webElementGuid>ef184e98-fe97-4849-84a3-af5ac81447bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Min. 8 karakter berupa kombinasi angka, huruf besar dan huruf kecil'])[1]/following::button[1]</value>
-      <webElementGuid>121e411c-3387-428e-89a5-18bf50d71551</webElementGuid>
+      <webElementGuid>52c44777-c7ae-4177-99bf-33b3b9e9e735</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::button[1]</value>
-      <webElementGuid>97c6aeb9-dc6d-41c3-9cd8-717de8749a6d</webElementGuid>
+      <webElementGuid>40d2dca2-5c10-4af3-8910-151da8d219da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/button</value>
-      <webElementGuid>360b1964-1922-410c-a1b1-19c15cd93404</webElementGuid>
+      <webElementGuid>b14706f2-df25-4728-8b60-6f6874fb1789</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Lanjutkan ' or . = ' Lanjutkan ')]</value>
-      <webElementGuid>181daea1-3528-46b3-bec7-f9e5cd1eb627</webElementGuid>
+      <webElementGuid>7ebfdb58-e96c-4e46-9570-5f881fdc76bb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
