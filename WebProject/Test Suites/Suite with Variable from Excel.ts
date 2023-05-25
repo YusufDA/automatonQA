@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>test suite</name>
+   <name>Suite with Variable from Excel</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -15,7 +15,7 @@
       <guid>9377ff87-325a-4e02-b67a-c4ab17c87918</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Registration and Login/Login bioskop online</testCaseId>
+      <testCaseId>Test Cases/Registration and Login/TC_001 - Login bioskop online Local Variable</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>52c0e250-3f4b-4af4-8b89-4f6474c20d64</id>

@@ -17,5 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_Bioskop Online/test'))
+WebUI.openBrowser('https://bioskoponline.com/')
+
+'ira13z@wandahadissuara.com Katasand1\r\n'
+WebUI.click(findTestObject('Page_Bioskop Online/button_Masuk'))
+
+WebUI.setText(findTestObject('Page_Bioskop Online/input_Atau_username'), GlobalVariable.username)
+
+WebUI.setText(findTestObject('Page_Bioskop Online/input__password_login'), GlobalVariable.password)
+
+WebUI.click(findTestObject('Page_Bioskop Online/button_Masuk_popup'))
+
+WebUI.delay(5)
+
+WebUI.takeFullPageScreenshot()
 

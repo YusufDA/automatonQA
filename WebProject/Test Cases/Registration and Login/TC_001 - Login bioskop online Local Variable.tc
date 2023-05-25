@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login bioskop online</name>
+   <name>TC_001 - Login bioskop online Local Variable</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>1558f216-b2c8-42b1-a2c6-204b8a7c01b7</testCaseGuid>
