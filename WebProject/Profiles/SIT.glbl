@@ -14,4 +14,9 @@
       <initValue>'Katasand1'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>data</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
