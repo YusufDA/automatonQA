@@ -28,6 +28,8 @@ WebUI.setText(findTestObject('Page_Bioskop Online/input__password_login'), passw
 
 WebUI.click(findTestObject('Page_Bioskop Online/button_Masuk_popup'))
 
+WebUI.acceptAlert()
+
 WebUI.delay(5)
 
 WebUI.takeFullPageScreenshot()

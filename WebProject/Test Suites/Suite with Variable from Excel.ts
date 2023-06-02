@@ -15,7 +15,7 @@
       <guid>9377ff87-325a-4e02-b67a-c4ab17c87918</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Registration and Login/TC_001 - Login bioskop online Local Variable</testCaseId>
+      <testCaseId>Test Cases/Yusuf/Registration and Login/TC_001 - Login bioskop online Local Variable</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>52c0e250-3f4b-4af4-8b89-4f6474c20d64</id>
